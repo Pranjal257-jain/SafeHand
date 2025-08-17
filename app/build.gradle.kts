@@ -49,9 +49,20 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.ui)
 
+
+
     implementation("com.google.dagger:hilt-android:2.57")
     kapt("com.google.dagger:hilt-android-compiler:2.57")
 
+    implementation("androidx.room:room-runtime:2.6.1")
+    kapt("androidx.room:room-compiler:2.7.2")
+    implementation("com.google.code.gson:gson:2.13.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
+    implementation("commons-io:commons-io:2.20.0")
+    implementation("androidx.security:security-crypto:1.1.0-alpha06")
+    implementation("pub.devrel:easypermissions:3.0.0")
+    implementation("no.nordicsemi.android:mesh:3.1.0")
+    implementation("com.google.android.gms:play-services-location:21.3.0")
     implementation(libs.androidx.hilt.navigation.compose)
 
     implementation(libs.androidx.ui.graphics)
