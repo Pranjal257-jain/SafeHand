@@ -13,4 +13,6 @@ class SafeHandViewModel @Inject constructor(
     private val bluetoothMeshSender: BluetoothMeshSender
 ) : ViewModel() {
 
+
+
 }
